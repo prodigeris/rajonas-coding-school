@@ -48,14 +48,15 @@ There are **4 valid operations**:
 - `addition`
 - `subtraction`
 
-Instead of using `console.log` this to output your result to the console, let's use `alert` and output the result to the user screen.
+Instead of using `console.log` to output your result to the console, let's use `alert` and output the result to the user screen.
 
 ### Level 2
 
 Capture the unknown operation and `alert` the user that `"Operation 'random' is not allowed!"`
 
 ### Level 3
-Everyone knows that you cannot divide by zero.
+Everyone knows that you cannot divide by zero or horrible things happen.
+
 Let the user know that this operation is not allowed, by `alert`ing  `"STOP DOING THAT! You will create a wormhole."`
 
 ### Example 1
@@ -67,6 +68,16 @@ Let the user know that this operation is not allowed, by `alert`ing  `"STOP DOIN
 `operation = "multiplication"`
 
 The result then should be `22`
+
+### Example 2
+
+`firstNumber = -2`
+
+`secondNumber = -5`
+
+`operation = "addition"`
+
+The result then should be `-7`
 
 ### Note
 Assume that skipped prompts for numbers are `0` and empty string (`""`) for operation.
