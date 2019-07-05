@@ -5,4 +5,5 @@
 
 ## Exercises
 
-Group into pairs. 
+Group into pairs. Begin by doing these tasks:
+- [Basic calculator](basic/basic-calculator.md)
