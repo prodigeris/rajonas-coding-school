@@ -16,3 +16,5 @@ You will start using your IDE and see your application live on the browser.
 
 Group into pairs. Begin by doing these tasks:
 - [Basic calculator](basic/basic-calculator.md)
+- [Where is my delivery?](basic/where-is-my-delivery.md)
+- [Fizz Buzz](basic/fizz-buzz.md)
