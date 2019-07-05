@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Where is my delivery?</title>
+</head>
+<body>
+
+<h1>Hope you got the right result!</h1>
+
+<footer>
+    <a href="https://github.com/prodigeris/rajonas-coding-school" target="_blank">
+        Rajonas Coding School &copy; 2019
+    </a>
+</footer>
+
+</body>
+<script type="application/javascript">
+    let l1 = parseFloat(prompt("Enter the longitude"));
+    let l2 = parseFloat(prompt("Enter the latitude"));
+
+    let a1 = 54.89077;
+    let a2 = 23.919353;
+
+    let dis = Math.sqrt(Math.pow(l1 - a1, 2) + Math.pow(l2 - a2, 2));
+
+    alert(Math.round(dis * 100) + ' km')
+</script>
+</html>
