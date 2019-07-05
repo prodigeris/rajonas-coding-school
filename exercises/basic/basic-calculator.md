@@ -21,7 +21,8 @@ The first mission of your team will be to create a calculator for the finance te
 
 ## Background
 
-You will be provided with some code boilerplate for handling user input.
+[You will be provided with some code boilerplate for handling user input.](../../boilerplate/basic-calculator/index.html)
+
 
 ## Exercise
 ### Level 1 
@@ -56,3 +57,7 @@ Capture the unknown operation and `alert` the user that `"Operation 'random' is 
 ### Level 3
 Everyone knows that you cannot divide by zero.
 Let the user know that this operation is not allowed, by `alert`ing  `"STOP DOING THAT! You will create a wormhole."`
+
+### Note
+
+Assume that skipped prompts for numbers are `0` and empty string (`""`) for operation.
