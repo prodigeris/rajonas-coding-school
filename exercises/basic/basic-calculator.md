@@ -58,6 +58,15 @@ Capture the unknown operation and `alert` the user that `"Operation 'random' is 
 Everyone knows that you cannot divide by zero.
 Let the user know that this operation is not allowed, by `alert`ing  `"STOP DOING THAT! You will create a wormhole."`
 
-### Note
+### Example 1
 
+`firstNumber = 2`
+
+`secondNumber = 11`
+
+`operation = "multiplication"`
+
+The result then should be `22`
+
+### Note
 Assume that skipped prompts for numbers are `0` and empty string (`""`) for operation.
