@@ -5,7 +5,7 @@
 Your boss is extremely pleased with your team about that calculator you've recently made.
 Using free intern labour saved him like 6 euros instead of purchasing them on Maxima. Success!
 
-You silently sit at the desk, watching 9gag memes without doing any actual work when out of nowhere, the boss storms at your desk.
+You silently sit at the desk, watching 9gag memes without doing any actual work, when out of nowhere the boss storms at your desk.
 
 You had been preparing yourself for this exact moment for years and quickly alt-tab into Visual Studio Code in 0.32s.
 
@@ -38,7 +38,7 @@ Office coordinates are:
 
 Assign these coordinates to `officeLongitude` and `officeLatitude`.
 
-Use [distance formula](https://www.varsitytutors.com/hotmath/hotmath_help/topics/distance-formula) to calculate the difference between the coordinates, multiply by 100 and [round the result up](
+Use the [distance formula](https://www.varsitytutors.com/hotmath/hotmath_help/topics/distance-formula) to calculate the difference between the coordinates, multiply by 100 and [round the result up](
 ).
 This will represent a distance in kilometres.
 
@@ -55,10 +55,10 @@ These prompts will need to be assigned to variables called:
 # Example
 
 Assuming that the office location is `54.89077, 23.919353` (Kaunas),
-when the user supplies location of `54.687416,25.28004` (Vilnius), you would need to return: `138 km`
+when the user supplies the location of `54.687416,25.28004` (Vilnius), you would need to return: `138 km`
 
 ### Note
 
-- Assume that skipped prompts for numbers are `0.00`
+- Skipped prompts for coordinates will return `NaN`.
 - This formula doesn't work on the Earth because the Earth is a sphere (or is it?). 
-In a real world scenario, you would have to use [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula).
+In a real-world scenario, you would have to use the [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula).

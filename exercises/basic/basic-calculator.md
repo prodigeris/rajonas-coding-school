@@ -46,7 +46,7 @@ There are **4 valid operations**:
 - `multiplication`
 - `division`
 - `addition`
-- `substraction`
+- `subtraction`
 
 Instead of using `console.log` this to output your result to the console, let's use `alert` and output the result to the user screen.
 
