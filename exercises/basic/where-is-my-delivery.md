@@ -52,7 +52,7 @@ These prompts will need to be assigned to variables called:
 - `deliveryLongitude` (float)
 - `deliveryLatitude` (float)
 
-# Example
+## Example
 
 Assuming that the office location is `54.89077, 23.919353` (Kaunas),
 when the user supplies the location of `54.687416,25.28004` (Vilnius), you would need to return: `138 km`
